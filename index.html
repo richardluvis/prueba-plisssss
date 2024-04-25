@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/IMG/ico.png" type="image/x-icon">
+  <title>LEARNING 4 ALL</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .jumbotron {
+      background-color: #0b17ff;
+      color: rgb(3, 0, 0);
+    }
+    .card {
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .feature-icon {
+      font-size: 50px;
+      color: #343a40;
+    }
+    .feature-title {
+      color: #343a40;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+    }
+    .footer a {
+      color: white;
+    }
+    .logo img {
+      max-width: 700px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .navbar{
+        overflow: hidden;
+        background-color: #ffffff;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+  </style>
+</head>
+<body>
+    <header id="header" class="fixed-top">
+        <div class="navbar"> 
+            <div class="container d-flex align-self-center">
+            <a href="index.html" class="logo me-auto"><img src="IMG/logo4.png" alt="" class="img-fluid"></a>
+            </div>
+        </div>
+    </header><!-- End Header -->
+
+<div class="jumbotron text-center">
+  <p class="lead " style="color: #ffffff"  ><br><br><br><br><br><br><br>Este proyecto es una aplicación web educativa desarrollada como parte de un proyecto universitario para la universidad de San Buenaventura sede Bogotá D.C. El objetivo principal de LEARNING 4 ALL es llevar educación gratuita y de calidad a todas las personas interesadas en los estudios relacionados con las nuevas tecnologías de software.</p>
+</div>
+
+<div class="container">
+  <h2 class="text-center mb-4">Objetivo General</h2>
+  <p class="lead text-center mb-4">Desarrollar una plataforma web para el aprendizaje del desarrollo de software.</p>
+
+  <h2 class="text-center mb-4">Pregunta Problema</h2>
+  <p class="lead text-center mb-4">¿Cómo facilitar el acceso a la educación enfocada a lenguajes de programación en Colombia?</p>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Desarrolladores</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Andrés David Baquero Moreno</li>
+        <li class="list-group-item">Richrd Luvis Lopez Cardona</li>
+        <li class="list-group-item">Zulay Nicole Oviedo</li>
+        <li class="list-group-item">Christian David Reyes Barragán</li>
+        <li class="list-group-item">Nicolas Zea Aponte</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Tecnologías Utilizadas</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><a class="logon me-auto"><img src="IMG/node.png" alt="" class="img-fluid" style="max-width: 20px;"></a> Node.js</li>
+        <li class="list-group-item"><a class="logon me-auto"><img src="IMG/boostrap.png" alt=""  class="img-fluid" style="max-width: 20px;"></a> Bootstrap</li>
+        <li class="list-group-item"><a class="logon me-auto"><img src="IMG/js.png" alt="" class="img-fluid" style="max-width: 20px;"></a> Express</li>
+        <li class="list-group-item"><a class="logon me-auto"><img src="IMG/html.png" alt="" class="img-fluid" style="max-width: 20px;"></a> HTML</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Funcionalidades</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Página de Inicio: Presenta una descripción general del proyecto educativo.</li>
+        <li class="list-group-item">Cursos: Sección que contiene materiales educativos para los usuarios.</li>
+        <li class="list-group-item">Contacto: Información de contacto del equipo de desarrollo.</li>
+        <li class="list-group-item">Registro de Usuarios: Permite a los usuarios crear cuentas para acceder a contenido personalizado.</li>
+        <li class="list-group-item">Inicio de Sesión: Los usuarios registrados pueden iniciar sesión para acceder a funcionalidades adicionales.</li>
+        <li class="list-group-item">Recursos Interactivos: Incluye vídeos, cuestionarios y actividades interactivas para mejorar la experiencia de aprendizaje.</li>
+        <li class="list-group-item">Gestión de Contenidos: Permite a los administradores del sitio actualizar y gestionar el contenido de forma sencilla.</li>
+        <li class="list-group-item">Diseño Responsivo: Garantiza que la página web se vea bien y sea fácil de usar en dispositivos móviles y tablets.</li>
+        <li class="list-group-item">Seguridad: Implementa medidas de seguridad para proteger los datos de los usuarios y prevenir posibles vulnerabilidades.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Instrucciones de Instalación</h2>
+      <ol class="list-group">
+        <li class="list-group-item">Clonar el repositorio desde <a href="https://github.com/richardluvis/learning4al.git">GitHub</a>.</li>
+        <li class="list-group-item">Léase [requerimientos.txt]</li>
+        <li class="list-group-item">Instalar las dependencias utilizando <code>npm install</code>.</li>
+        <li class="list-group-item">Ejecutar la aplicación con <code>node server.js</code>.</li>
+        <li class="list-group-item">Acceder a la página web en <a href="http://localhost:4000">http://localhost:4000</a>.</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<footer class="footer text-center py-3">
+  <div class="container">
+    <span>Este proyecto se comparte bajo la Licencia MIT. Para más detalles, léase el archivo <a href="#">LICENSE</a>.</span>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  document.getElementById("add-developer-btn").addEventListener("click", function() {
+    var developersList = document.getElementById("developers-list");
+    var newDeveloper = document.createElement("li");
+    newDeveloper.className = "list-group-item";
+    newDeveloper.textContent = "Nuevo desarrollador";
+    developersList.appendChild(newDeveloper);
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
